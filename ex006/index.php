@@ -77,7 +77,6 @@
         $res1 = pow(5, 2);
         print $res1;
     ?>
-    <br>
     <?php 
         // sin(), cos(), tan()
     ?>
