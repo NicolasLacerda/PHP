@@ -44,11 +44,47 @@
     <br>
     <?php 
         // hypot() Calcura a hipotenusa com base nos catetos
+        $res1 = hypot(5, 2);
+        print $res1;
     ?>
     <br>
     <?php 
         // intdiv() Número mais proximo de uma divisão com virgula
         $res1 = intdiv(5,2);
+        print $res1;
+    ?>
+    <br>
+    <?php 
+        // min() pega o menor valor entre os números do array
+        $res1 = min(5, 2, 1, 23, 23, 5);
+        print $res1;
+    ?>
+    <br>
+    <?php 
+        // max() pega o maior valor entre os números do array
+        $res1 = max(5, 2, 1, 23, 23, 5);
+        print $res1;
+    ?>
+    <br>
+    <?php 
+        // pi() valor de pi
+        $res1 = pi();
+        print $res1;
+    ?>
+    <br>
+    <?php 
+        // pow() potência
+        $res1 = pow(5, 2);
+        print $res1;
+    ?>
+    <br>
+    <?php 
+        // sin(), cos(), tan()
+    ?>
+    <br>
+    <?php 
+        // sqrt() calcula raiz quadrada de um número
+        $res1 = sqrt(9);
         print $res1;
     ?>
 </body>
